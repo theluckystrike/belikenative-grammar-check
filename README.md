@@ -137,10 +137,22 @@ All code follows NASA Power of 10 rules:
 - No global mutable state
 - All API responses checked
 
+---
+
+## BeLikeNative Developer Tools
+
+This tool is part of the **[BeLikeNative](https://belikenative.com)** ecosystem — AI-powered writing tools for non-native English speakers.
+
+| Tool | Type | Description |
+|------|------|-------------|
+| [Writing Assistant](https://github.com/theluckystrike/bln-writing-assistant) | GitHub Action | Writing quality analysis: readability, structure, clarity |
+| [i18n Checker](https://github.com/theluckystrike/bln-i18n-checker) | GitHub Action | Find hardcoded strings that need internationalization |
+| [Commit Lint](https://github.com/theluckystrike/bln-commit-lint) | GitHub Action | Commit message grammar, format & clarity checker |
+| [MCP Grammar Server](https://github.com/theluckystrike/bln-mcp-grammar-server) | MCP Server | 70 local grammar rules for Claude Desktop & Cursor |
+| [Website Grader](https://github.com/theluckystrike/bln-website-grader) | Web Tool | Free website performance grader |
+
+**[BeLikeNative Chrome Extension](https://chromewebstore.google.com/detail/belikenative-ai-writing-a/gchojmpfpbpmpfgdppfdkpchikbcgabp)** — AI writing assistant for 100+ languages, 15 tones, 15 styles. 10,000+ users, 4.6★ rating.
+
 ## License
 
 MIT
-
----
-
-*Built by [BeLikeNative](https://belikenative.com) -- AI writing assistant for non-native speakers*
