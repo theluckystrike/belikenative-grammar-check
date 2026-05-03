@@ -1,0 +1,29 @@
+name: 'BeLikeNative Grammar Check'
+description: 'Rule-based grammar checking for documentation and markdown files. Catches common non-native speaker errors with L1-aware explanations.'
+branding:
+  icon: 'check-circle'
+  color: 'green'
+inputs:
+  github-token:
+    description: 'GitHub token for posting review comments'
+    required: true
+    default: '${{ github.token }}'
+  severity-threshold:
+    description: 'Minimum severity to report (error, warning, info)'
+    required: false
+    default: 'warning'
+  file-patterns:
+    description: 'Comma-separated glob patterns for files to check'
+    required: false
+    default: '**/*.md,**/*.txt,**/*.mdx,**/*.rst'
+  max-comments:
+    description: 'Maximum number of review comments per PR'
+    required: false
+    default: '50'
+  fail-on-error:
+    description: 'Fail the check if error-level issues are found'
+    required: false
+    default: 'true'
+runs:
+  using: 'node20'
+  main: 'src/index.mjs'
