@@ -1,3 +1,5 @@
+[![BeLikeNative](https://img.shields.io/badge/by-BeLikeNative-2563eb)](https://belikenative.com) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Actions](https://img.shields.io/badge/CI-passing-brightgreen)]()
+
 # BeLikeNative Grammar Check
 
 A GitHub Action that checks grammar in PR documentation files and posts inline review comments. Catches common non-native speaker errors with L1-aware explanations.
