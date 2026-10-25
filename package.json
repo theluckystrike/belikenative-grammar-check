@@ -1,5 +1,6 @@
 {
   "name": "bln-grammar-check-action",
+  "repository": {"type": "git", "url": "theluckystrike/belikenative-grammar-check.git"},
   "version": "1.0.0",
   "description": "Rule-based grammar checking GitHub Action for documentation files with L1-aware explanations",
   "type": "module",
