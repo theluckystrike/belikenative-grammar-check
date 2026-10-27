@@ -1,4 +1,4 @@
-[![BeLikeNative](https://img.shields.io/badge/by-BeLikeNative-2563eb)](https://belikenative.com) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![GitHub Actions](https://img.shields.io/badge/CI-passing-brightgreen)]()
+[![BeLikeNative](https://img.shields.io/badge/by-BeLikeNative-2563eb)](https://belikenative.com) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 # BeLikeNative Grammar Check
 
